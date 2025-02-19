@@ -99,7 +99,7 @@ img {
 
 .about__img--wrapped,
 .section__description--wrapped {
-    padding:  0 24%;
+    padding:  0 24px;
 }
 
 .section__description--para {
