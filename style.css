@@ -70,9 +70,9 @@ li {
     justify-content: center;
 }
 
-#about.
-#discord.
-#contact 
+#about,
+#discord,
+#contact, 
 #footer {
     padding: 48px;
 }
@@ -133,7 +133,7 @@ DISCORD
 /* 
 CONTACT
 */
-#Contact {
+#contact {
     background-attachment: #dce9ff;
 }
 
@@ -141,14 +141,16 @@ form {
     width: 100%;
     max-width: 600px;
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
 }
 
 /* 
 FOOTER
 */
 
-#footer {
+footer {
     background-color: #aaf5ff;
     display: flex;
     flex-direction: column;
@@ -166,4 +168,8 @@ FOOTER
 
 .footer__link {
     padding: 0 16px;
+}
+
+textarea {
+    height: 100px;
 }
