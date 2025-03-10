@@ -44,7 +44,7 @@ button {
 }
 a {
 color: #000;
-font-size: 24px;
+font: size 24px;
 font-weight: 700;
 }
 
@@ -102,15 +102,15 @@ h2 {
 }
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
-.section__description--wrapped {
+.section__description--wrapper {
     width: 40%;
 }
 
-.about__img--wrapped,
-.section__description--wrapped {
+.about__img--wrapper,
+.section__description--wrapper {
     padding: 0 24px;
 }
 
@@ -134,7 +134,7 @@ DISCORD
 CONTACT
 */
 #contact {
-    background-attachment: #dce9ff;
+    background-color: #dce9ff;
 }
 
 form {
@@ -192,7 +192,7 @@ textarea {
     }
 
     .home__description {
-        margin-bottom: 100px;
+        margin-button: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -232,23 +232,23 @@ ul {
 }
 
 footer {
-    padding: ;
+    padding: 24px 48px;
 }
 
 
 .footer__logo {
-    max-width: 360px;
+    max-width: 320px;
     margin-top: 24px;
 }
 
-.footer__link {
-    padding: 0 4px;
-    font-size: 100px;
+.footer__links {
+    padding: 0 60px;
+    font-size: 16px;
     
 }
 
 .footer__links {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 }
