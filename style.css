@@ -192,10 +192,11 @@ textarea {
     }
 
     .home__description {
-        margin-button: 100px;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        marg
     }
 
     .home__description--botton {
