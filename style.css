@@ -192,15 +192,14 @@ textarea {
     }
 
     .home__description {
-        margin-bottom: 100px;
+        margin-bottom: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        marg
     }
 
     .home__description--botton {
-        max-width: 240px;
+        max-width: 24px;
     }
 
 h1 {
